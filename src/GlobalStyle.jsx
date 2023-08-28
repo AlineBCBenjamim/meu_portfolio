@@ -10,12 +10,13 @@ export const GlobalStyle = createGlobalStyle`
     outline: none;
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
+    /* font-family: 'Belanosima', sans-serif; */
    }
    #root{
       --bg-color: #9E77E6;
       --second-bg-color: #CA77FC;
       --text-color: ##d2aee9;
-      --main-color: #8177FC;   
+      --main-color: #D8D8D8;   
    }
 
    html {
