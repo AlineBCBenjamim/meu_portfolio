@@ -10,12 +10,29 @@ const HomePage = () => {
         <section className="container-home">
           <div className="home-content">
             <h3>Olá visitante, meu nome é</h3> <h2>Aline Benjamim</h2>
-            <h3>Desenvolvedora Full Stack</h3> 
-            <h2 className="text-line typing-animation">Bem vindo ao meu portfólio</h2>
-            
+            <h3>Desenvolvedora Full Stack</h3>
+            <h2 className="text-line typing-animation">
+              Bem vindo ao meu portfólio
+            </h2>
             <div className="social-media">
-              <img className="linkedin" src={linkedin} alt="icon linkedin" />
-              <img className="github" src={github} alt="icon github" />
+              <a
+                href="https://www.linkedin.com/in/alinebcarvalhobenjamim/"
+                target={"_blank"} rel="noreferrer" 
+              >
+                <img
+                  className="linkedin"
+                  src={linkedin}
+                  alt="icon linkedin"
+                  rel="noopener noreferrer"
+                />
+              </a>
+              <a href="https://github.com/AlineBCBenjamim" target={"_blank"} rel="noreferrer">
+                <img
+                  src={github}
+                  alt="icone gitHub"
+                  rel="noopener noreferrer"
+                />
+              </a>
             </div>
           </div>
           <img className="home-img" src={avatar} alt="profile picture" />
